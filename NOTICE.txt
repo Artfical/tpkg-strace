@@ -1,0 +1,6 @@
+strace 7.3 for tOS
+====================
+
+Built from strace-7.3.tar.xz (beside this package) with --enable-mpers=no, linked statically.
+License: LGPL-2.1-or-later (LICENSE), the test code GPL-2.0-or-later. It uses ptrace: run it with the program to watch, e.g. `strace ls`.
+Not supported yet: -f (following forks), -p of programs that use threads.

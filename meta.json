@@ -1,0 +1,23 @@
+{
+ "name": "strace",
+ "version": "7.3",
+ "license": "LGPL-2.1-or-later",
+ "homepage": "https://strace.io",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "strace-7.3.tar.xz"
+ ],
+ "desc": "strace 7.3: shows the system calls a program makes (needs ptrace)",
+ "file": "strace-7.3.tpkg",
+ "size": 1093160,
+ "sha256": "c45999c108df7e17cd314ad3555e3645094b323ff75de79d5596ff4e5cce3cfa",
+ "unpacked": 2743424,
+ "min_build": 627,
+ "depends": [],
+ "commands": {
+  "strace": "bin/strace"
+ }
+}
